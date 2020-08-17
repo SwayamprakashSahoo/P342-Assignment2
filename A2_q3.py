@@ -42,7 +42,7 @@ print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in MN]))
 #######OUTPUT#####
 #Matrix M is : 
 #     2     5     4
-#     6    -3     8
+#     0    -3     8
 #     1     7     6
 #Matrix N is : 
 #     0     1    -5 

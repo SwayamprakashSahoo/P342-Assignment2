@@ -25,3 +25,15 @@ void main()
 		printf("  %d  ", sum[i]);
 	printf("]\nThe dot product is : %d\n", dotp);
 }
+
+
+
+
+//OUTPUT
+/*
+The two vectors include :
+Vector A : [  3    5    8  ]
+Vector B : [  2    9    6  ]
+The sum of the vectors is : [  5    14    14  ]
+The dot product is : 99
+*/

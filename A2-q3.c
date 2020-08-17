@@ -1,4 +1,4 @@
-//Create 3x3 matrices M=(a11,a12 … a33) and N=(b11,b12, …, b33) with numbers of choice(zeros, negatives and positives 
+//Create 3x3 matrices M=(a11,a12 â€¦ a33) and N=(b11,b12, â€¦, b33) with numbers of choice(zeros, negatives and positives 
 //but not random numbers) in two separate files, read the matrices from the files and find M x A and M x N
 
 #include <stdio.h>
@@ -76,3 +76,29 @@ int main()
 		printf("\n");
 	}
 }
+
+
+
+
+/*OUTPUT
+
+Matrix M is :
+2 5 4
+0 -3 8
+1 7 6
+
+Matrix N is :
+0 1 -5
+2 -4 7
+3 8 9
+
+The product MxA is given by :
+63
+49
+86
+
+The matrix multiplication  of M and N yields:
+ 22 14 61
+18 76 51
+32 21 98
+*/

@@ -9,9 +9,22 @@ for i in range(6):
     for j in range(6):
         for k in range(6):
             for l in range(6):
-                sum+=(abs((k+l)-(i+j)))
+                sum+=(abs(k-i)+abs(l-j))
                 count+=1
 
 avg=sum/count
-print("The possible number of combinations(pairs) are:\n", count)
+print("The possible number of combinations(pairs) are:\n", count);
 print("\nThe average distance between two points in the grid is :\n",avg)
+
+
+
+
+
+########OUTPUT######
+#For a 6x6 two dimensional grid, assuming distance between any two adjacent points to be 1 unit
+#
+#The possible number of combinations(pairs) are:
+# 1296
+#
+#The average distance between two points in the grid is :
+# 3.888888888888889

@@ -25,3 +25,17 @@ void main()
 	printf("The possible number of combinations(pairs) are:\n %d\n", count);
 	printf("The average distance between two points on the straight line is:\n %f units", avg);
 }
+
+
+
+
+
+//OUTPUT
+/*
+The line has 6 points.
+ Distance between any two consequetive points on the line has been taken to be 3 units.
+The possible number of combinations(pairs) are:
+ 36
+The average distance between two points on the straight line is:
+ 5.833333 units
+ */

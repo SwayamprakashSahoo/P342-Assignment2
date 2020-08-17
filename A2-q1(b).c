@@ -26,3 +26,16 @@ void main()
 	printf("The possible number of combinations(pairs) are:\n %d\n", count);
 	printf("The average distance between two points is :\n %f units", avg);
 }
+
+
+
+
+
+//OUTPUT
+/*
+For a 6x6 two dimensional grid, assuming distance between consequetive points to be 1 unit
+The possible number of combinations(pairs) are:
+ 1296
+The average distance between two points is :
+ 3.888889 units
+ */

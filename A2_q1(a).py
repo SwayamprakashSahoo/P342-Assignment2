@@ -12,3 +12,18 @@ for x in range(6):
 avg=sum/count
 print("The possible number of combinations(pairs) are:\n", count)
 print("\nThe average distance between any two points is:\n", avg)
+
+
+
+
+
+#####OUTPUT#########
+#The line consists of 6 discrete points.
+#
+#Distance between any two adjacent points has been taken as 1 unit.
+#
+#The possible number of combinations(pairs) are:
+# 36
+#
+#The average distance between any two points is:
+# 1.9444444444444444

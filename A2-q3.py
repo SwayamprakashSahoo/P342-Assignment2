@@ -39,7 +39,6 @@ print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in MN]))
 
 
 
-
 #######OUTPUT#####
 #Matrix M is : 
 #     2     5     4

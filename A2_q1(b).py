@@ -13,5 +13,5 @@ for i in range(6):
                 count+=1
 
 avg=sum/count
-print("The possible number of combinations(pairs) are:\n", count);
+print("The possible number of combinations(pairs) are:\n", count)
 print("\nThe average distance between two points in the grid is :\n",avg)
